@@ -1,0 +1,32 @@
+*{
+    background-color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+h1{
+    font-size: 40pt;
+    color: floralwhite;
+    text-decoration: 5px lightblue double;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+#cantantesInfoPic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    color: chocolate;
+}

@@ -28,11 +28,27 @@ alert(mensaje)
 
 // Event listener desde botón en HTML
 function pedirNombre(){
-    var nombre = prompt("Cual es tu nombre", "Pedro Pérez")
+    nombre = prompt("Cual es tu nombre", "Pedro Pérez")
+
+    console.log(nombre)
 }
-var btnApodo = document.querySelector('#botonApodo')
+/*var btnApodo = document.querySelector('#botonApodo')
 console.log("Este es el boton del apodo "+btnApodo)
 //aquí se usará una funcion callback (esta funcion tmbien podría guardarse en una variable y hacerla tipo flecha)
 btnApodo.addEventListener('click', ()=>{
     var apodo = prompt("Cuál es tu apodo", "Pepito")
-})
+    mensaje = `Mis apodo es ${apodo}`
+    console.log(mensaje)
+})*/
+function pedirApodo(){
+    apodo = prompt("Cual es tu apodo", "Pepito")
+
+    console.log(apodo)
+}
+
+function mensaje(){
+    var mensaje = `Mi nombre es ${nombre}, pero mi apodo es ${apodo}`
+    console.log(mensaje)
+    //cuando uso un innertext lo edito después de un igual 
+    document.getElementById("respuesta").innerText = mensaje
+}
