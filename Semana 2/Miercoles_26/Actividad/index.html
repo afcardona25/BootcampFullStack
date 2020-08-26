@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculadora Simple</h1>
+    <section id="inputs">
+        <section id="inputFields">
+            <input type="number" name="numero1" id="numero1">
+            <input type="number" name="numero2" id="numero2">
+        </section>
+        <section id="buttons">
+            <button id="suma" onclick="operaciones(suma)">+</button>
+            <button id="resta" onclick="operaciones(resta)">-</button>
+            <button id="multiplicacion" onclick="operaciones(multiplicacion)">*</button>
+            <button id="division" onclick="operaciones(division)">/</button>
+        </section>
+
+    </section>
+    <section id="logOperaciones">
+        <div>
+            <h2>Sumas</h2>
+            <div id="logSumas"></div>
+        </div>
+        <div>
+            <h2>Restas</h2>
+            <div id="logRestas"></div>
+        </div>
+        <div>
+            <h2>Multiplicaciones</h2>
+            <div id="logMultiplicaciones"></div>
+        </div>
+        <div>
+            <h2>Divisiones</h2>
+            <div id="logDivisiones"></div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
