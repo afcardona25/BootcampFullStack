@@ -88,3 +88,7 @@ unload          	The event occurs once a page has unloaded (for <body>)	UiEvent,
 volumechange    	The event occurs when the volume of the media has changed (includes setting the volume to "mute")	Event
 waiting            	The event occurs when the media has paused but is expected to resume (like when the media pauses to buffer more data)	Event
 wheel           	The event occurs when the mouse wheel rolls up or down over an element	WheelEvent
+
+
+
+Solo usar let y no var para este curso!
