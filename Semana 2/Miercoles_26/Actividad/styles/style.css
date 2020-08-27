@@ -19,7 +19,8 @@ body {
   #inputs input {
     width: 300px;
     height: 30px;
-    margin: 5%; }
+    margin: 5%;
+    border: white 1px solid; }
   #inputs #inputFields {
     display: flex;
     flex-direction: row;
@@ -50,5 +51,9 @@ body {
     padding-left: 10px;
     border-left: darkslateblue 3px dotted;
     border-right: darkslateblue 3px dotted; }
+
+footer {
+  color: deepskyblue;
+  padding-top: 10%; }
 
 /*# sourceMappingURL=style.css.map */
