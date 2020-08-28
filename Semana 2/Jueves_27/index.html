@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <header>Formulario</header>
+    <div class="container">
+        <form action="">
+            <div class="inputContainer">
+                <label for="nombre">Ingrese su nombre: <span class="noInputAlert" id="noName"></span></label>
+                <input type="text" name="nombre" id="nombre" class="inputField" placeholder="Andrés">
+                
+            </div>
+            
+            <div class="inputContainer">
+                <label for="apellido">Ingrese su apellido: <span class="noInputAlert" id="noLastName"></span></label>
+                <input type="text" name="apellido" id="apellido" class="inputField" placeholder="Cardona">
+             
+            </div>
+            
+            <div class="inputContainer">
+                <label for="correo">Ingrese su correo electrónico: <span class="noInputAlert" id="noEmail"></span></label>
+                <input type="email" name="correo" id="correo" class="inputField" placeholder="algo@ejemplo.com">
+            
+            </div>
+
+            <div class="inputContainer">
+                <label for="genero">Seleccione su género: <span class="noInputAlert" id="noGender"></span></label>
+                <select id="genero" name="genero">
+                    <option value="default"></option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+                
+            </div>
+            
+            <div class="inputContainer">
+                <label for="cedula">Ingrese su número de cédula: <span class="noInputAlert" id="noID"></span></label>
+                <input type="number" name="cedula" id="cedula">
+             
+            </div>
+
+            <div class="checkTyC">
+                <label for="aceptarTyC" id="TyC" class="TyC">Acepte terminos y Condiciones:</label>
+                <input type="checkbox" name="aceptarTyC" id="aceptarTyC">
+            </div>
+            <input type="submit" onclick="validarFormulario()" value="Enviar" id="enviar">
+
+        </form>
+    </div>
+
+    <footer>Elaborado por Felipe Cardona el 27 de agosto usando Visual Studio Code</footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
