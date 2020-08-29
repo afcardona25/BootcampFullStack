@@ -14,26 +14,26 @@
     <div class="container">
         <form onsubmit="return validarFormulario()" name="formulario">
             <div class="inputContainer">
-                <label for="nombre">Ingrese su nombre: <span class="noInputAlert" id="noName"></span></label>
+                <label for="nombre"id="nombreLabel" class="normal">Ingrese su nombre: <span class="noInputAlert" ></span></label>
                 <input type="text" name="nombre" id="nombre" class="inputField" placeholder="Andrés">
 
             </div>
 
             <div class="inputContainer">
-                <label for="apellido">Ingrese su apellido: <span class="noInputAlert" id="noLastName"></span></label>
+                <label for="apellido" id="apellidoLabel" class="normal">Ingrese su apellido: <span class="noInputAlert" ></span></label>
                 <input type="text" name="apellido" id="apellido" class="inputField" placeholder="Cardona">
 
             </div>
 
             <div class="inputContainer">
-                <label for="correo">Ingrese su correo electrónico: <span class="noInputAlert"
-                        id="noEmail"></span></label>
+                <label for="correo" id="correoLabel" class="normal">Ingrese su correo electrónico: <span class="noInputAlert"
+                        ></span></label>
                 <input type="email" name="correo" id="correo" class="inputField" placeholder="algo@ejemplo.com">
 
             </div>
 
             <div class="inputContainer">
-                <label for="genero">Seleccione su género: <span class="noInputAlert" id="noGender"></span></label>
+                <label for="genero" id="generoLabel" class="normal">Seleccione su género: <span class="noInputAlert" id="noGender"></span></label>
                 <select id="genero" name="genero">
                     <option value="default"></option>
                     <option value="masculino">Masculino</option>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="inputContainer">
-                <label for="cedula">Ingrese su número de cédula: <span class="noInputAlert" id="noID"></span></label>
+                <label for="cedula" id="cedulaLabel" class="normal">Ingrese su número de cédula: <span class="noInputAlert" id="noID"></span></label>
                 <input type="number" name="cedula" id="cedula">
 
             </div>
