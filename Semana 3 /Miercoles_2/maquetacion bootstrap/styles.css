@@ -1,0 +1,23 @@
+* {
+  background-color: white; }
+
+header {
+  height: 200px;
+  background-color: blue; }
+
+.footerPropio {
+  background-color: crimson;
+  height: 200px; }
+
+.mainPropio {
+  height: 400px; }
+
+.amarillo {
+  background-color: #f8f403;
+  height: 100%; }
+
+.verde {
+  background-color: green;
+  height: 100%; }
+
+/*# sourceMappingURL=styles.css.map */
