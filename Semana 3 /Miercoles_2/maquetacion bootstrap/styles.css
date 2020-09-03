@@ -1,23 +1,19 @@
-* {
-  background-color: white; }
+body {
+  height: fit-content; }
 
 header {
   height: 200px;
-  background-color: blue; }
+  padding: 0% 5%; }
+  header span {
+    color: white; }
 
 .footerPropio {
-  background-color: crimson;
-  height: 200px; }
-
-.mainPropio {
-  height: 400px; }
+  height: 100px; }
 
 .amarillo {
-  background-color: #f8f403;
-  height: 100%; }
+  height: 400px; }
 
 .verde {
-  background-color: green;
-  height: 100%; }
+  height: 400px; }
 
 /*# sourceMappingURL=styles.css.map */

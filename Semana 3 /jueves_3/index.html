@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: rgb(63, 8, 116);
+        }
+
+        h2 {
+            color: rgb(134, 24, 238);
+        }
+
+        .puntito {
+            width: 30px;
+            height: 30px;
+            background: rgb(34, 8, 180);
+            border-radius: 50%;
+            margin: 4px;
+            padding: 5px;
+        }
+
+        .cara {
+            height: 130px;
+            width: 130px;
+            border: darkgray 1px solid;
+            border-radius: 13px;
+            box-shadow: 0 0 20px gray;
+            padding: 10px;
+        }
+        .carasDados{
+            margin-bottom: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Equal-width</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-success border border-white">
+                1 of 2
+            </div>
+            <div class="col bg-success border border-white">
+                2 of 2
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col bg-success border border-white">
+                1 of 3
+            </div>
+            <div class="col bg-success border border-white">
+                2 of 3
+            </div>
+            <div class="col bg-success border border-white">
+                3 of 3
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2>Horizontal alignment</h2>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+            <div class="col-4 bg-success border border-white">
+                One of two columns
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1>Display direction</h1>
+    <h2>row</h2>
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <h2>Column</h2>
+    <div class="d-flex flex-column bd-highlight mb-3">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <div class="d-flex flex-column-reverse bd-highlight">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <hr>
+    <h2>Justify content</h2>
+    <div class="d-flex justify-content-start">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-end">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-between">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-around">
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 1</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 2</div>
+        <div class="p-2 bd-highlight bg-success border border-white">Flex item 3</div>
+    </div>
+
+    <h1>Actividad Dados </h1>
+    <div class="d-flex  justify-content-around carasDados">
+
+        <div class="cara  d-flex justify-content-center align-items-center">
+            <div class="puntito "></div>
+        </div>
+
+
+        <div class="cara d-flex flex-column justify-content-between">
+            <div class="puntito align-self-end"></div>
+            <div class="puntito"></div>
+        </div>
+
+
+        <div class="cara d-flex flex-column justify-content-between">
+            <div class="puntito align-self-end"></div>
+            <div class="puntito align-self-center"></div>
+            <div class="puntito"></div>
+        </div>
+
+    </div>
+    <div class="d-flex  justify-content-around carasDados">
+        <div class="cara d-flex justify-content-between flex-column">
+            <div class="d-flex justify-content-between">
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+            </div>
+       
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+            </div>
+        </div>
+
+
+        <div class="cara d-flex justify-content-between flex-column">
+            <div class="d-flex justify-content-between">
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="puntito justify-content-center"></div>
+            
+            </div>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+            </div>
+            
+
+        </div>
+
+
+        <div class="cara d-flex justify-content-between">
+            <div class="d-flex justify-content-between flex-column">
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+            </div>
+            <div class="d-flex justify-content-between flex-column">
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+                <div class="puntito"></div>
+            </div>
+        </div>
+
+
+    </div>
+<footer>realizado por Andres Cardona </footer>
+</body>
+
+</html>
