@@ -4,14 +4,14 @@
 .miNavbar {
   background-color: #033249;
   color: #EFEDE8;
-  position: sticky;
-  height: 70px; }
+  border-bottom: gray 1px solid; }
   .miNavbar #navbarLink {
     color: #EFEDE8; }
     .miNavbar #navbarLink img {
-      height: 120px;
+      height: 80px;
       width: auto;
-      padding-top: 10px; }
+      object-fit: cover;
+      margin: -20px -20px -30px -30px; }
 
 .myBtn {
   color: #EFEDE8; }
@@ -24,5 +24,15 @@
   background-color: #075277;
   color: #EFEDE8;
   border-radius: 7px; }
+
+#recomendados {
+  color: #EFEDE8; }
+
+body {
+  background-color: #033249;
+  text-align: center; }
+
+main .h3 {
+  font-style: italic; }
 
 /*# sourceMappingURL=styles.css.map */
