@@ -1,0 +1,19 @@
+#logo{
+    height: 50px;
+    width: auto;
+}
+.miNavbar{
+    border-bottom: 0.5px grey solid;
+    height: 90px;
+
+}
+.artistInfo {
+    border: grey 0.5px solid;
+    height: 500px;
+    padding-top: 20px;
+    width: fit-content;
+}
+.customForm{
+    border: grey 0.5px solid;
+    height: 500px;
+}
