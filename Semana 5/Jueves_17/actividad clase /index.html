@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles.css">
@@ -8,32 +9,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad </title>
 </head>
+
 <body>
-        <nav class="navbar navbar-light miNavbar navbar-expand-lg justify-content-between sticky-top shadow p-3 mb-5 bg-white rounded">
-            <a class="navbar-brand" href="#" id="navbarLink">
-                <img src="./IMG/logo.png" id="logo">
-                <span class="d-none d-sm-inline"> Actividad </span>
-            </a>
-        
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-                <ul class="navbar-nav text-right">
-                    <li class="nav-item active">
-                        <a class="nav-link myLink" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link myLink" href="./formulario/form.html">Fomulario</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link myLink" href="./formulario/registry.html">Registros</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
-        <section class="container col-3 d-flex flex-column justify-content-between align-items-center artistInfo">
+    <nav
+        class="navbar navbar-light miNavbar navbar-expand-lg justify-content-between sticky-top shadow p-3 mb-5 bg-white rounded">
+        <a class="navbar-brand" href="#" id="navbarLink">
+            <img src="./IMG/logo.png" id="logo">
+            <span class="d-none d-sm-inline"> Actividad </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item active">
+                    <a class="nav-link myLink" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link myLink" href="./formulario/form.html">Fomulario</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link myLink" href="./formulario/registry.html">Registros</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <section class="container d-flex justify-content-around  artistInfo">
+        <div class="d-flex flex-column justify-content-start">
             <img src="./photos/DuaLipa.jpg" alt="" width="200px" height="auto">
             <h5>Nombre</h5>
             <p id="nombreArtista"></p>
@@ -41,7 +45,26 @@
             <p id="edadArtista"></p>
             <h5>Último sencillo</h5>
             <p id="ultimoSencillo"></p>
-        </section>
+        </div>
+        <div class="d-flex flex-column justify-content-start">
+            <img src="./photos/shakira.jpg" alt="" width="200px" height="auto">
+            <h5>Nombre</h5>
+            <p id="nombreArtista2"></p>
+            <h5>Edad</h5>
+            <p id="edadArtista2"></p>
+            <h5>Último sencillo</h5>
+            <p id="ultimoSencillo2"></p>
+        </div>
+            <div class="d-flex flex-column">
+                <img src="./photos/Drake.jpg" alt="" width="200px" height="auto">
+                <h5>Nombre</h5>
+                <p id="nombreArtista3"></p>
+                <h5>Edad</h5>
+                <p id="edadArtista3"></p>
+                <h5>Último sencillo</h5>
+                <p id="ultimoSencillo3"></p>
+            </div>
+    </section>
 
     <!--Footer-->
     <footer class="container-fluid">Todos los derechos reservados </footer>
@@ -57,4 +80,5 @@
         crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
+
 </html>
