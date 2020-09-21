@@ -1,0 +1,49 @@
+.miNavbar {
+  border-bottom: 0.5px gray solid;
+  box-shadow: 0px 10px 8px #888888;
+  margin-bottom: 10px;
+  background-color: white; }
+
+#logo {
+  height: 50px;
+  width: auto; }
+
+.customNavItem {
+  margin-left: 10px;
+  border: 0.3px gray solid;
+  border-radius: 4px; }
+
+.customNavItem:hover {
+  background-color: rgba(0, 4, 252, 0.685); }
+  .customNavItem:hover a {
+    color: white !important; }
+
+footer {
+  background-color: #010166;
+  color: white;
+  padding-top: 10px; }
+
+.customLinkFooter {
+  padding-left: 10px;
+  color: white; }
+
+.customLinkFooter:hover {
+  color: white; }
+
+#avatar {
+  width: 100px;
+  height: 110px; }
+
+.userInfoDisplay {
+  border-right: white 0.5px solid; }
+
+.customContainer {
+  height: 500px; }
+
+@media screen and (max-width: 990px) {
+  .customNavItem {
+    border: none;
+    margin-bottom: 20px;
+    padding-right: 10px; } }
+
+/*# sourceMappingURL=styles.css.map */
