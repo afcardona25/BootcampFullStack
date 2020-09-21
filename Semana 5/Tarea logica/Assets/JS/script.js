@@ -2,8 +2,10 @@
 const userData = document.getElementById("indexForm")
 
 let userDataInput = []
-var retu = 
+var retu = false
+
 userData.addEventListener("submit", ()=> {
+    
     const nombre = document.getElementById("name").value
     const email = document.getElementById("email").value
     const password = document.getElementById("password").value
@@ -13,25 +15,27 @@ userData.addEventListener("submit", ()=> {
         email: email,
         contrasena: password
     }
-    
+
     saveInStorage(userInfo)
     alert(`Bienvenido(a) ${userInfo.nombre}`)
     document.getElementById("name").value = ""
     document.getElementById("email").value = ""
     document.getElementById("password").value = "" 
-    window.location.replace("/Users/andrescardona/Documents/GitHub/BootcampFullStack/Semana 5/Tarea lógica/Assets/Pages/perfil.html")
+    window.location.replace("/Users/andrescardona/Documents/GitHub/BootcampFullStack/Semana 5/Tarea logica/Assets/Pages/perfil.html")
 })
 
 const saveInStorage = (userInfo) => {
     if (localStorage.getItem('datos') == null) {
-        userDataInput.unshift(userInfo)
+        userDataInput.push(userInfo)
         const dataString = JSON.stringify(userDataInput)
         localStorage.setItem('datos', dataString)
+
     } else {
         listInStorage = JSON.parse(localStorage.getItem("datos"))
         listInStorage.push(userInfo)
         const dataString = JSON.stringify(listInStorage)
         localStorage.setItem('datos', dataString)
+       
     }
 }
 /*function checkName(x){
