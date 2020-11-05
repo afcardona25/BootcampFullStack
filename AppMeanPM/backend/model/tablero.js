@@ -8,6 +8,7 @@ const esquemaTablero = new mongoose.Schema({
     nombre: String,
     descipcion: String,
     sticker: String,
+    estado: String,
     fecha : {
         type:Date,
         default: Date.now,
